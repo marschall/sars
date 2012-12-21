@@ -11,7 +11,7 @@ public class LegacySample extends ServiceMBeanSupport implements LegacySampleMBe
 	private static final String NAME = "java:global/env/foo/legacy";
 	private static final String VALUE = "BAR";
 
-	private static final Logger LOG = Logger.getLogger("sar-pojo");
+	private static final Logger LOG = Logger.getLogger("sar-legacy");
 
 	public LegacySample() {
 		super();

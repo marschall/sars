@@ -31,7 +31,7 @@ public class PojoSample implements PojoSampleMBean {
 		try {
 			InitialContext ic = new InitialContext();
 			ic.unbind(NAME);
-			LOG.info("started");
+			LOG.info("stopped");
 		} catch (NamingException e) {
 			LOG.log(Level.SEVERE, "could not bind value", e);
 		}
