@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server xmlns="urn:jboss:service:7.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="urn:jboss:service:7.0 jboss-service_7_0.xsd">
+   <!-- specify required jar files as needed -->
+   <!-- <classpath codebase="." archives="" /> -->
+   
+   <mbean code="com.github.marschall.sars.pojo.PojoSample" name="service.server.monitor:service=PojoSampleMBean">
+   </mbean>
+</server>
